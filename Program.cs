@@ -21,11 +21,11 @@ for (int i = 1; i < 11; i++)
     int player = Random.Shared.Next(1, 7);
 
     Console.WriteLine($"Rival rolled a {computer}");
-    Console.WriteLine("Press any key to roll the dice...");  
+    Console.WriteLine("Press any key to roll the dice...");
     Console.ReadKey(true);
     Console.WriteLine($"You rolled a {player}");
 
-    if (computer > player) 
+    if (computer > player)
     {
         computerPoints++;
         Console.WriteLine("The Rival won this round.");

@@ -49,9 +49,13 @@ if (playerPoints > computerPoints)
 {
     Console.WriteLine("You won!");
 }
-else
+else if (computerPoints > playerPoints)
 {
     Console.WriteLine("You lost!");
+}
+else
+{
+    Console.WriteLine("This game was a draw!");
 }
 
 Console.WriteLine("Press any key to exit...");
